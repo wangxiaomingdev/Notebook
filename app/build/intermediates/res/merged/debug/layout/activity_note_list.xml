@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row">
+
+    <TextView
+        android:layout_height="100px"
+        android:layout_width="wrap_content"
+        android:id="@+id/text1"
+        android:textSize="24sp"
+        android:text="第一组 第一项"
+        android:maxWidth="200dip"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_height="75px"
+        android:layout_width="wrap_content"
+        android:id="@+id/created"
+        android:text="2016年1月3日"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/text1"/>
+
+</RelativeLayout>
